@@ -5,7 +5,7 @@ import time
 # General information
 BOT_NAME = "Twitch emote corrector"
 CREATOR = "/u/lukevastus"
-VERSION = "1.01"
+VERSION = "1.02"
 
 # OAuth2 credentials, extremely important!
 # If you have already edited your local praw.ini file, fill in your additional site name:
@@ -20,10 +20,11 @@ PASSWORD = ""
 
 # Custom configurations
 SUBREDDIT = "dota2"
-SUBMISSION_LIMIT = 15
-COMMENT_LIMIT = 30
+SUBMISSION_LIMIT = 20
+COMMENT_LIMIT = 5
 SLEEP_TIME = 47
-BOT_INFO_TEXT = "***\n\n---*This is a testrun for the %s bot (V%s) created by %s, feel free to upvote this reply LUL*---" \
+BOT_INFO_TEXT = "***\n\n---*This is a testrun for the %s bot (V%s) created by %s, view its [source code]" \
+                "(https://github.com/lukevastus/Twitch_emote_bot)*---" \
                 %(BOT_NAME, VERSION, CREATOR)
 
 
