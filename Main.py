@@ -5,7 +5,7 @@ import time
 # General information
 BOT_NAME = "Twitch emote corrector"
 CREATOR = "/u/lukevastus"
-VERSION = "1.02"
+VERSION = "1.03"
 
 # OAuth2 credentials, extremely important!
 # If you have already edited your local praw.ini file, fill in your additional site name:
