@@ -1,8 +1,7 @@
 # Twitch_emote_bot
 <h2>Introduction</h2>
 This is a script that traverses Reddit (using its API) to find comments which miscapitalizes twitch emotes, and replies them with the correct capitalization. It also provides the link to the corresponding emote page on twitchemotes.com. An example (V1.01) is shown below: <br>
-![alt text](https://github.com/lukevastus/Twitch_emote_bot/blob/master/Example_1.png?raw=true "Example_1")
-
+<a href="url"><img src="https://github.com/lukevastus/Twitch_emote_bot/blob/master/Example_1.png?raw=true"></a>
 <h2>How to run</h2>
 <ul>
 <li>Upgrade pip (using <code>pip install -U pip setuptools</code> on Linux/OS X or <code>python -m pip install -U pip setuptools</code> on Windows) if you haven't.</li>
